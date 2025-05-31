@@ -125,19 +125,19 @@ Write a C Program to count the total number of words in a given string using do 
 
 ## PROGRAM
 ```
-#include<stdio.h>
-int main()
-{
+#include <stdio.h>
+
+int main() {
     char a[100];
-    int l=0;
-    fgets(a,sizeof(a),stdin);
-    while(a[l]!='\0')
-    {
+    int l = 0;
+    fgets(a, sizeof(a), stdin);  
+    do {
         l++;
-    }
-    printf("%d",l-1);
+    } while (a[l] != '\0');
+    printf("%d", l - 1);
     return 0;
 }
+
 ```
 
 
