@@ -49,8 +49,8 @@ Write a C Program to check whether the two numbers are equal or not using simple
 #include<stdio.h>
 int main()
 {
-    int a,b;
-    scanf("%d%d",&a,&b);
+    int x,y;
+    scanf("%d%d",&x,&y);
     if(a==b)
     {
         printf("X is equal to Y");
