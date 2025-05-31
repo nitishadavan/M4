@@ -154,7 +154,7 @@ Thus the program to count the total number of words in a given string using do W
 ## AIM
 write a Program to compare two strings without using strcmp().
 ## ALGORITHM
-
+~~~
 Step 1: Start the program.
 Step 2: Declare two character arrays c1 and c2 of size 100 to store the strings. Also, declare an integer variable
              flag and initialize it to 0, and i for indexing.      
@@ -170,7 +170,7 @@ Step 7: After the loop, check the value of flag:
 •	If flag == 0, print "strings are same".
 •	Otherwise, print "strings are not same".
 Step 8: End the program.
-
+~~~
 ## PROGRAM
 ```
 #include<stdio.h>
